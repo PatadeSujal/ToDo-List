@@ -1,0 +1,32 @@
+.display-flex{
+    display: flex;
+}
+.flex-direction-column{
+    flex-direction: column;
+}
+
+.justify-center{
+    justify-content: center;
+}
+.align-item-center{
+    align-items: center;
+}
+.btn{
+    padding: 12px;
+    width: 80px;
+    margin: 6px;
+    cursor: pointer;
+   
+}
+.border-radius{
+    border-radius: 23px 
+}
+@media screen and (max-width:1248px){
+    .label {width:29vw; font-size: 14px}
+}
+@media screen and (max-width:630px){
+    .btn {width:36px; font-size: 5px; padding:3px}
+    .label {padding:5px; font-size:10px}
+    .textbox {padding:5px; placeholder:5px; font-size:8px; margin-left:12px}
+    .items{gap:10px}
+}

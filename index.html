@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>ToDo List - Add, Delete and Manage all the tasks to perform</title>
+</head>
+
+<body>
+    <h1 class="heading">ToDo List</h1>
+    <div class="main-container border-radius">
+        <div class="inputs display-flex justify-center align-item-center">
+            <div><input type="text" class="textbox border-radius" placeholder="Enter the Task in List"></div>
+            <div><button id="add-btn" class="btn border-radius" onclick="addTask()">Add</button></div>
+            <div><button id="save-btn" class="btn border-radius " onclick="saveBtn(this.id)">Save</button></div>
+        </div>
+        <div class="items display-flex align-item-center justify-center">
+            <!-- <div class="circle"><img src="tick.webp" alt="" srcset="" class="tick circle"></div> -->
+            <!-- <img src="circle.png" alt="" class="circle Completed " onclick="taskCompleted(this.id)"> -->
+            <div class="tasks">
+
+            </div>
+            <!-- <div><button id="edit-btn" class="btn border-radius" onclick="editTask()">Edit</button></div>
+            <div><button id="remove-btn" class="btn border-radius" onclick="removeTask()">Remove</button></div> -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
